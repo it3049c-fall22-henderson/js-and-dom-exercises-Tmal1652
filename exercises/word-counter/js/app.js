@@ -9,7 +9,7 @@ const textarea = document.querySelector("textarea");
 
 const stat = document.getElementById("stat");
 
-textarea.addEventListener("onkeyup", function (e) {
+textarea.addEventListener("keyup", function (e) {
     
   let words = 0;
   let chars = 0;
